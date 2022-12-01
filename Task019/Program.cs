@@ -4,48 +4,22 @@
 
 int num = UserInput();
 
-int rev = CheckPalindrome(num);
+bool rev = CheckPalindrome(num);
 
-PrintAnswer(rev);
+if (rev == true)
 
-
-
-
-
-
-
-
-
-
+{
+    Console.WriteLine("Введенное число является палиндромом");
+}
+else
+{
+    Console.WriteLine("Введенное число не является палиндромом");
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Методы:
 
 int UserInput()
 {
@@ -64,7 +38,7 @@ int UserInput()
      
 }
 
-int CheckPalindrome(int num)
+bool CheckPalindrome(int num)
 {
     int n = num;
     int rev = 0;
@@ -75,18 +49,12 @@ int CheckPalindrome(int num)
         rev = rev * 10 + r;
         n = n / 10;
     }
-    return rev;
-}
-
-int PrintAnswer(int rev)
-{
-    if(rev == num)
+    if (rev == num)
     {
-        Console.WriteLine($"Введенное Вами число является палиндромом.");
+        return (true);
     }
     else
     {
-        Console.WriteLine($"Введенное Вами число не является палиндромом.");
+        return false;
     }
-    return -1;
 }
