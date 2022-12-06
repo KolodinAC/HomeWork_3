@@ -17,9 +17,7 @@ else
 }
 
 
-
-
-// Методы:
+// Methods:
 
 int UserInput()
 {

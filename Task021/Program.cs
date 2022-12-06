@@ -14,39 +14,6 @@ double result = GetDistanceBetweenTwoPoints(x1, y1, z1, x2, y2, z2);
 Console.WriteLine(result);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int UserInput()
 {
     Console.WriteLine("Введите координаты заданных точек:");

@@ -8,46 +8,6 @@ int[] cubesTable = GetCubesTab(N);
 PrintArray(cubesTable);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int InputInt()
 {
     Console.WriteLine("Введите желаемое целое число:");
